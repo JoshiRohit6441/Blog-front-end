@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(255, 238, 217);
+}
+.custum-nav-main {
+  background: bisque;
+  box-shadow: 0 0 10px 0 rgb(255, 255, 255);
+}
+.nav-link {
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+}
+.nav-link.active {
+  color: rgb(238, 141, 255);
+}
+
+.custum-card {
+  width: 600px;
+  height: 280px;
+}
+
+.card-header-home {
+  height: 40px;
+  width: 598px;
+}
+.card-body-home {
+  height: 196px;
+  width: 598px;
+}
+.card-footer-home {
+  height: 40px;
+  width: 598px;
+}
+.custum-grid-card {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-evenly;
+  row-gap: 50px;
+}
+
+.custum-redirect-link-read-more:hover {
+  color: rgb(98, 98, 254) !important;
+}
+
+.return-home-button:hover {
+  color: rgb(96, 96, 255);
+}
